@@ -1,7 +1,8 @@
 function test() {
-	var x
-
-	x = document.getElementById("abc").value
-	document.write(x)
-
+	
+	var x ,y;
+	
+	x = document.getElementById("abc").value;
+	document.getElementById("showninput").innerHTML = x;
+ 
 }
